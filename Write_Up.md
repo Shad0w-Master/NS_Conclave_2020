@@ -14,7 +14,7 @@ kind of challenge, I just need to click on the the link which
 was provided on the domain and join the group on discord where
 I got the 1st Flag:
 
-![Discord-Flag](image9.jpeg)
+![Discord-Flag](images/image9.jpeg)
 
 ## Challenge: Prime
 
@@ -69,7 +69,7 @@ I ran that script and after 200+ requests, I got the flag.
 >	rev = rev[-4:-1]<br>
 >	rev = int(rev)          *\#Check data, if it is asking for the prime numbers again then continue the loop otherwise break it with the Flag*<br>
 
-![Prime](image5.jpeg)
+![Prime](images/image5.jpeg)
 
 ## Challenge: Yuddha
 
@@ -77,9 +77,9 @@ In this challenge I got a URL, and when I opened that URL I got
 an image of Mahabharat yuddha with the name Kurushetra.jpg. So I downloaded that image, and I realized that this is a
 steganography challenge so I used Binwalk tool to check the image and I found that there is a zip file inside that image So I used Stegextract tool to extract the zip file from the image.
     
-![Binwalk](image1.jpeg)
+![Binwalk](images/image1.jpeg)
 
-![Stegextract](image3.jpeg)
+![Stegextract](images/image3.jpeg)
 
 But when I tried to open it, it said unsupported file type, So this
 time I had opened that zip file with the hex editor and at the same time I had opened a valid zip file with hex editor
@@ -87,7 +87,7 @@ which I had compressed before and compared Both files, So I got that the 1st byt
 was different as I already know that every file has their own
 mime-type signature so I had changed the byte from FF to 50 and saved it.
 
-![Hex-Edit](image12.jpeg)
+![Hex-Edit](images/image12.jpeg)
 
 And guess what another challenge is waiting for me, the zip was
 password protected but this time I got the password hint from the Discord group(1st
@@ -95,7 +95,7 @@ challenge). {n0******}
 
 Finally I unlocked the zip file and got the flag:
 
-![Yudhha-Flag](image4.jpeg)
+![Yudhha-Flag](images/image4.jpeg)
 
 ## Challenge: Webmin
 
@@ -105,13 +105,13 @@ some exploits for RCE, but I did not have any credentials so I
 had to use **webmin password\_change.cgi Backdoor** exploit
 because credentials are required in all other RCE exploits.
 
-![Webmin](image8.jpeg)
+![Webmin](images/image8.jpeg)
 
 And I set everything and got a reverse shell easily.
 
-![Metasploit-module](image7.jpeg)
+![Metasploit-module](images/image7.jpeg)
 
-![Set-Payload](image11.jpeg)
+![Set-Payload](images/image11.jpeg)
 
 Then I spawn the shell with the help of python one-liner, and search for the flag, and finally I got the flag in a file with the name
 ** \_flag_.txt**.
@@ -121,6 +121,6 @@ found that the credentials were saved in robots.txt
 file(root:conclave), so at that moment I realize that I can use
 other exploits as well.
 
-![Shell](image2.jpeg)
+![Shell](images/image2.jpeg)
 
-![Webmin-Flag](image6.jpeg)
+![Webmin-Flag](images/image6.jpeg)
