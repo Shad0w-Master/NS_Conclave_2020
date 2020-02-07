@@ -1,4 +1,4 @@
-# [Write Up] NSConclave CTF 2020 
+# [Write Up] Kurukshetra -NSConclave CTF 2020 
 ## -- by *[Rohit Misuriya](https://twitter.com/root_viper)*
 
 
