@@ -114,7 +114,7 @@ And I set everything and got a reverse shell easily.
 ![Set-Payload](images/image11.jpeg)
 
 Then I spawn the shell with the help of python one-liner, and search for the flag, and finally I got the flag in a file with the name
-** \_flag_.txt**.
+**\_flag_.txt**.
 
 After getting the shell when I was checking the source code and I
 found that the credentials were saved in robots.txt
