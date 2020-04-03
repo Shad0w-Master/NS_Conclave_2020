@@ -1,4 +1,5 @@
-# [Write Up] Kurukshetra -NSConclave CTF 2020 
+# [Write Up] Kurukshetra - NSConclave CTF 2020
+## Date & Time: 6PM, 25-Jan-2020 to 9AM, 26-Jan-2020
 ## -- by *[Rohit Misuriya](https://twitter.com/root_viper)*
 
 
